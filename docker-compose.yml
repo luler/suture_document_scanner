@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  image_background_changer:
+  suture_document_scanner:
     image: ghcr.io/luler/suture_document_scanner:latest
     #    build:
     #      context: .
