@@ -267,4 +267,4 @@ async def scan_document(
 if __name__ == "__main__":
     import uvicorn
 
-    uvicorn.run(app, host="0.0.0.0", port=8000)  # 当脚本直接运行时，启动 FastAPI 应用程序，监听所有接口的 8000 端口
+    uvicorn.run(app, host="0.0.0.0", port=5000)  # 当脚本直接运行时，启动 FastAPI 应用程序，监听所有接口的 8000 端口
